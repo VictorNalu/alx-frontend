@@ -50,5 +50,5 @@ h6 {
 
 /* Anchor styles (this should come after the headings declaration) */
 a {
-    color: var(--text-colour);
+    color: var(--text-color);
 }
