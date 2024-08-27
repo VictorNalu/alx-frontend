@@ -1,0 +1,23 @@
+body {
+    color: #161616;
+}
+
+/* All anchor elements */
+a {
+    color: #161616;
+}
+
+/* Elements with class visually-hidden */
+.visually-hidden {
+    display: none;
+}
+
+/* Elements with class card-category */
+.card-category {
+    color: #D73953;
+}
+
+/* Elements with class section-tagline */
+.section-tagline {
+    color: #D73953;
+}
