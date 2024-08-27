@@ -10,6 +10,16 @@
 
 }
 
+/* Section Tagline */
+.section-tagline {
+    color: var(--color-primary);
+}
+
+/* Card Category */
+.card-category {
+    color: var(--color-primary);
+}
+
 /* Set the font-family for the body */
 body {
     color: var(--text-color);
