@@ -5,22 +5,31 @@
     --color-light-grey: #f3f3f3;
     --color-dark-grey: #353535;
     --text-color: var(--color-black);
+    --font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif;
     --font-size-small: 1.2rem;
     --font-size-medium: 1.6rem;
     --font-size-large: 1.8rem;
     --font-size-x-large: 2.3rem;
     --font-size-xx-large: 4.8rem;
-    --font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    --font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    /* other custom properties */
+
 }
 
-/* Set the base font size to 62.5% */
+/* Section Tagline */
+.section-tagline {
+    color: var(--color-primary);
+}
+
+/* Card Category */
+.card-category {
+    color: var(--color-primary);
+}
+
 html {
     font-size: 62.5%;
 }
 
-/* Set the font-family and font-size for the body */
+/* Set the font-family for the body */
 body {
     color: var(--text-color);
     font-family: var(--font-family-base);
@@ -40,5 +49,5 @@ h6 {
 
 /* Anchor styles (this should come after the headings declaration) */
 a {
-    color: var(--text-color);
+    color: var(--text-colour);
 }
