@@ -47,32 +47,6 @@
     --footer-padding: 5rem 0 1rem;
 }
 
-/* Anchor elements */
-a {
-    color: var(--text-color);
-    /* Set text color for links */
-    text-decoration: none;
-    /* Remove underline from links */
-}
-
-/* Visited state */
-a:visited {
-    font-style: italic;
-    /* Italicize visited links */
-}
-
-/* Hover state */
-a:hover {
-    text-decoration: underline;
-    /* Add underline on hover */
-}
-
-/* Active state */
-a:active {
-    background-color: var(--color-light-grey);
-    /* Set background color for active links */
-}
-
 /* Section Title */
 .section-title {
     font-family: var(--font-family-title);
@@ -133,6 +107,32 @@ body {
     font-size: var(--font-size-medium);
     font-weight: var(--font-weight-regular);
     line-height: var(--line-height-base);
+}
+
+/* Anchor elements */
+a {
+    color: var(--text-color);
+    /* Set text color for links */
+    text-decoration: none;
+    /* Remove underline from links */
+}
+
+/* Visited state */
+a:visited {
+    font-style: italic;
+    /* Italicize visited links */
+}
+
+/* Hover state */
+a:hover {
+    text-decoration: underline;
+    /* Add underline on hover */
+}
+
+/* Active state */
+a:active {
+    background-color: var(--color-light-grey);
+    /* Set background color for active links */
 }
 
 /* Set the font-family for all section headings (h1 to h6) */
