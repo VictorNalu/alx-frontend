@@ -38,6 +38,13 @@
 
     --section-title-margin: 0;
     --section-title-color: var(--color-black);
+
+    --section-padding: 5rem 0;
+    --section-header-padding: 0 0 3rem;
+    --section-body-padding: 0 0 3rem;
+    --section-footer-padding: 3rem 0 0;
+    --section-footer-align: center;
+    --footer-padding: 5rem 0 1rem;
 }
 
 /* Anchor elements */
@@ -88,6 +95,21 @@ a:active {
     font-weight: var(--font-weight-bold);
 }
 
+/* Section */
+.section {
+    padding: var(--section-padding);
+}
+
+* Section Body */ .section-body {
+    padding: var(--section-body-padding);
+}
+
+/* Section Footer */
+.section-footer {
+    padding: var(--section-footer-padding);
+    text-align: var(--section-footer-align);
+}
+
 .container {
     width: 960px;
     margin-left: auto;
@@ -127,4 +149,9 @@ h6 {
 /* Card Category */
 .card-category {
     color: var(--color-primary);
+}
+
+/* Footer */
+.footer {
+    padding: var(--footer-padding);
 }
