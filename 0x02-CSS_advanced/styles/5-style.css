@@ -34,7 +34,6 @@ body {
     color: var(--text-color);
     font-family: var(--font-family-base);
     font-size: var(--font-size-medium);
-    /* other body styles */
 }
 
 /* Set the font-family for all section headings (h1 to h6) */
