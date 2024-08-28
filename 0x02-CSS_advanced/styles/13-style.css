@@ -93,7 +93,7 @@ h6 {
 }
 
 /* Anchor styles */
-a {
+a:link {
     color: var(--text-color);
     text-decoration: none;
 }
