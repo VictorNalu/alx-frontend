@@ -38,6 +38,23 @@
 
     --section-title-margin: 0;
     --section-title-color: var(--color-black);
+
+    --section-padding: 5rem 0;
+    --section-header-padding: 0 0 3rem;
+    --section-body-padding: 0 0 3rem;
+    --section-footer-padding: 3rem 0 0;
+    --section-footer-align: center;
+    --footer-padding: 5rem 0 1rem;
+
+    --nav-item-font-family: var(--font-family-title);
+    --nav-item-font-weight: var(--font-weight-bold);
+    --nav-item-font-size: var(--font-size-medium);
+    --nav-item-letter-spacing: 0.04rem;
+    /* 4% of the root element */
+    --nav-item-display: inline-block;
+    --nav-item-margin: 0 0 0.36rem;
+    /* 3 times the root element (0.12rem) */
+    --nav-item-link-hover: var(--color-primary);
 }
 
 /* Navbar Menu */
@@ -80,32 +97,6 @@ nav .nav-link:hover {
     color: var(--nav-item-link-hover);
 }
 
-/* Anchor elements */
-a {
-    color: var(--text-color);
-    /* Set text color for links */
-    text-decoration: none;
-    /* Remove underline from links */
-}
-
-/* Visited state */
-a:visited {
-    font-style: italic;
-    /* Italicize visited links */
-}
-
-/* Hover state */
-a:hover {
-    text-decoration: underline;
-    /* Add underline on hover */
-}
-
-/* Active state */
-a:active {
-    background-color: var(--color-light-grey);
-    /* Set background color for active links */
-}
-
 /* Section Title */
 .section-title {
     font-family: var(--font-family-title);
@@ -126,6 +117,21 @@ a:active {
     font-family: var(--font-family-title);
     text-transform: var(--section-tagline-transform);
     font-weight: var(--font-weight-bold);
+}
+
+/* Section */
+.section {
+    padding: var(--section-padding);
+}
+
+* Section Body */ .section-body {
+    padding: var(--section-body-padding);
+}
+
+/* Section Footer */
+.section-footer {
+    padding: var(--section-footer-padding);
+    text-align: var(--section-footer-align);
 }
 
 .container {
@@ -153,6 +159,32 @@ body {
     line-height: var(--line-height-base);
 }
 
+/* Anchor elements */
+a {
+    color: var(--text-color);
+    /* Set text color for links */
+    text-decoration: none;
+    /* Remove underline from links */
+}
+
+/* Visited state */
+a:visited {
+    font-style: italic;
+    /* Italicize visited links */
+}
+
+/* Hover state */
+a:hover {
+    text-decoration: underline;
+    /* Add underline on hover */
+}
+
+/* Active state */
+a:active {
+    background-color: var(--color-light-grey);
+    /* Set background color for active links */
+}
+
 /* Set the font-family for all section headings (h1 to h6) */
 h1,
 h2,
@@ -162,4 +194,14 @@ h5,
 h6 {
     font-family: var(--font-family-title);
     font-weight: var(--font-weight-bold);
+}
+
+/* Card Category */
+.card-category {
+    color: var(--color-primary);
+}
+
+/* Footer */
+.footer {
+    padding: var(--footer-padding);
 }
